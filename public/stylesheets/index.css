@@ -31,7 +31,7 @@ a {
 	gap:10px;
 	width: 500px;
 	margin: 200px auto;
-	border: solid 2px #999898;
+	border: solid 2px #99989821;
 	padding:100px 0;
 	background-color: #fff;
 	
@@ -63,14 +63,11 @@ height: 35px;
 font-size: 18px;
 color: rgb(0, 0, 0);
 }
-/* .username1 input::before{
-	content: "To:";
-	font-size: 20px; */
-}
+
 input:focus{
 	outline: none !important;
     border-color: #db1a1ab7;
-    box-shadow: 0 0 3px #db1a1a33;
+    box-shadow: 0 0 1px #db1a1a33;
 }
 button{
 	margin-top: 10px;
