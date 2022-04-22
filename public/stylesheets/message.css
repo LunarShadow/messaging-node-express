@@ -35,47 +35,12 @@ a {
   position: relative;
 }
 
-/* .username1, 
-.username2 {
-	padding-left: 30px;
-	padding-bottom: 1;
-}
-.username1 p,
-.username2 p {
-color: rgb(26, 20, 20);
-font-size: 26px;
-margin-top: 0px;
-margin-bottom: 1px;
-font-family: Arial;
-
-}
-.username1 input,
-.username2 input{
-border: solid 2px #db1a1a8c;
-border-radius: 7px;
-height: 35px;
-font-size: 18px;
-color: rgb(0, 0, 0);
-} */
 textarea,
 input:focus {
   outline: none !important;
   border-color: #db1a1ab7;
   box-shadow: 0 0 3px #db1a1a33;
 }
-/* button{
-	margin-top: 10px;
-	flex-basis: 40px;
-	font-size: 18px;
-	width: 200px;
-	align-self: center;
-	color: #fff;
-	background-color: #db1a1a;
-	border: 0;
-	border-radius: 10px;
-	cursor: pointer;
-	
-} */
 
 .messageInput {
   display: flex;
