@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  background-color: rgba(247, 212, 212, 0.651);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 100px;
+  border: 1px;
+  display: flex;
+  flex-direction: column-row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px;
+  background-color: #db1a1a;
+  color: #f9f9fc;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 500px;
+  margin: 200px auto;
+  /* border: solid 0px; */
+  padding: 60px 0;
+  background-color: rgba(247, 212, 212, 0.103);
+  position: relative;
+}
+
+/* .username1, 
+.username2 {
+	padding-left: 30px;
+	padding-bottom: 1;
+}
+.username1 p,
+.username2 p {
+color: rgb(26, 20, 20);
+font-size: 26px;
+margin-top: 0px;
+margin-bottom: 1px;
+font-family: Arial;
+
+}
+.username1 input,
+.username2 input{
+border: solid 2px #db1a1a8c;
+border-radius: 7px;
+height: 35px;
+font-size: 18px;
+color: rgb(0, 0, 0);
+} */
+textarea,
+input:focus {
+  outline: none !important;
+  border-color: #db1a1ab7;
+  box-shadow: 0 0 3px #db1a1a33;
+}
+/* button{
+	margin-top: 10px;
+	flex-basis: 40px;
+	font-size: 18px;
+	width: 200px;
+	align-self: center;
+	color: #fff;
+	background-color: #db1a1a;
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	
+} */
+
+.messageInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.messageInput input,
+textarea {
+  border-radius: 7px;
+  border: solid 1px #db1a1ab7;
+  width: 100%;
+  align-items: center;
+}
+.messageInput input:first-child {
+  width: 100%;
+  font-size: 20px;
+  align-items: center;
+  height: 30px;
+  padding: auto;
+}
+
+.messageInput textarea {
+  width: 100%;
+  text-align: left;
+  font-family: Arial;
+  font-size: 20px;
+  
+}
+.messageInput::after{
+content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" /> </svg>');
+width:20px;
+margin:0 0 0 110%;
+margin-top: 60px;
+position: absolute;
+height: 10px;
+stroke:#db1a1a;
+
+}
+.messageInput::before{
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" /></svg>');
+    width:20px;
+    margin:0 0 0 110%;
+    margin-top: 5px;
+    position: absolute;
+    height: 10px;
+    stroke:#db1a1a;
+    
+    }
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+.btn button {
+  font-size: 20px;
+  padding: 5px 0;
+  color: white;
+  width: 200px;
+  border: solid 0;
+  border-radius: 10px;
+}
+.btn button:first-child {
+  background-color: black;
+}
+.btn button:last-child {
+  background-color: #db1a1a;
+}
+.btn button:last-child::after {
+  
+}
+
+.icons svg {
+  height: 20px;
+  width: 20px;
+  color: #db1a1a;
+  position: relative;
+}
+.icons svg:first-child {
+  position: absolute;
+}
+
+#content {
+  margin-top: 100px;
+}
+
+.logoTitle {
+}
+
+.menuItems {
+  font-family: Arial;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
