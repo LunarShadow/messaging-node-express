@@ -14,12 +14,21 @@ a {
   margin-bottom: 100px;
   border: 1px;
   display: flex;
-  flex-direction: column-row;
+  /* flex-direction: column-row; */
   justify-content: space-between;
   align-content: center;
   padding: 10px;
   background-color: #db1a1a;
   color: #f9f9fc;
+  height: 60px;
+}
+img{
+	height: 100px;
+	width: 95px;
+	position: absolute;
+	margin-top: -20px;
+	transform: scale(1.5);
+	margin-left: 20px;
 }
 
 #wrapper {
@@ -42,6 +51,7 @@ input:focus {
   box-shadow: 0 0 3px #db1a1a33;
 }
 
+
 .messageInput {
   display: flex;
   flex-direction: column;
@@ -53,7 +63,7 @@ textarea {
   border-radius: 7px;
   border: solid 1px #db1a1ab7;
   width: 100%;
-  /* align-items: center; */
+ 
 }
 .messageInput input:first-child {
   width: 100%;
@@ -68,10 +78,11 @@ textarea {
   text-align: left;
   font-family: Arial;
   font-size: 20px;
+  padding-left: 2px;
   
 }
 .messageInput::after{
-content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" /> </svg>');
+content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="red" stroke-width="2"> <path stroke-linecap="round" stroke-linejoin="round" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" /> </svg>');
 width:20px;
 margin:0 0 0 110%;
 margin-top: 60px;
@@ -81,7 +92,7 @@ stroke:#db1a1a;
 
 }
 .messageInput::before{
-    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" /></svg>');
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="red" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6m0 0v6m0-6h6m-6 0H6" /></svg>');
     width:20px;
     margin:0 0 0 110%;
     margin-top: 5px;
@@ -110,26 +121,11 @@ stroke:#db1a1a;
 .btn button:last-child {
   background-color: #db1a1a;
 }
-.btn button:last-child::after {
-  
-}
-
-.icons svg {
-  height: 20px;
-  width: 20px;
-  color: #db1a1a;
-  position: relative;
-}
-.icons svg:first-child {
-  position: absolute;
-}
 
 #content {
   margin-top: 100px;
 }
 
-.logoTitle {
-}
 
 .menuItems {
   font-family: Arial;

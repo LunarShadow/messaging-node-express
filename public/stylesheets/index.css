@@ -21,6 +21,15 @@ a {
 	background-color: #db1a1a;
 	color:  #f9f9fc;
 }
+img{
+	height: 100px;
+	width: 95px;
+	position: absolute;
+	margin-top: -20px;
+	transform: scale(1.5);
+	margin-left: 20px;
+
+}
 
 
 
