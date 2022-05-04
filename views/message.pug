@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  #content
+    #wrapper
+        .messageInput
+            input(type="text" placeholder =' To:' )
+        
+            textarea(placeholder ="Start typing" type ="text" rows="4" cols="50" ) 
+        
+        .btn
+          button(onclick="test()" type="submit") Preview
+          button(onclick="test()" type="submit") Send
+
+        
+
+
+
+    script(src="../javascripts/sendMessage.js")
